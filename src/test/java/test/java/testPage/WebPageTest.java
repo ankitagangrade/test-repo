@@ -21,7 +21,7 @@ public class WebPageTest {
 		System.setProperty("webdriver.chrome.driver","C:\\Program Files (x86)\\Jenkins\\workspace\\Testi\\chromedriver.exe");
 		new DesiredCapabilities();
 		DesiredCapabilities capabilities = DesiredCapabilities.chrome();
-		oDriver = new RemoteWebDriver(new URL("http://192.168.1.10:5555/wd/hub"), capabilities);
+		oDriver = new RemoteWebDriver(new URL("localhost:9091/wd/hub"), capabilities);
 		
 	}
 	
