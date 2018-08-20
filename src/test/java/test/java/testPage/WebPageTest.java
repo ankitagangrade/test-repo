@@ -29,7 +29,7 @@ public class WebPageTest {
 	public void test() {
 		
 String name="mahesh";
-oDriver.get("http://localhost:8081/DemoWebPage/");
+oDriver.get("http://localhost:8081/DemoWebPage_New/");
 oDriver.findElement(By.id("myText")).sendKeys(name);
 oDriver.findElement(By.xpath("/html/body/button")).click();
 String output_name=oDriver.findElement(By.id("demo")).getText();
